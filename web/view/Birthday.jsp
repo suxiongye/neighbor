@@ -23,7 +23,7 @@
     <div class="form-group">
         <label class="label form-control">结点数目</label>
         <input type="text" class="form-control" name="node_num">
-        <%=basePath%>
+        <%=basePath%>test tomcat
     </div>
     <div class="form-group">
         <label class="form-control">
