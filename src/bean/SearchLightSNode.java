@@ -6,9 +6,14 @@ import utils.Constants;
  * Created by Administrator on 15-7-21.
  */
 public class SearchLightSNode extends Node {
-    private int t;
-    private int startSlot;
+    private int t;//位移间隔
+    private int startSlot;//开始时间片
 
+    /**
+     * 初始化节点
+     * @param t 位移的间隔
+     * @param startSlot 开始时间片
+     */
     public SearchLightSNode(int t, int startSlot){
         this.t = t;
         this.startSlot = startSlot;

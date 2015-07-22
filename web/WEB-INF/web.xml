@@ -20,6 +20,31 @@
         <servlet-name>DiscoServlet</servlet-name>
         <servlet-class>servlet.DiscoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SearchLightSServlet</servlet-name>
+        <servlet-class>servlet.SearchLightSServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchLightRServlet</servlet-name>
+        <servlet-class>servlet.SearchLightRServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchLightRServlet</servlet-name>
+        <url-pattern>/servlet/SearchLightRServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchLightSServlet</servlet-name>
+        <url-pattern>/servlet/SearchLightSServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UConnServlet</servlet-name>
+        <url-pattern>/servlet/UConnServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DiscoServlet</servlet-name>
+        <url-pattern>/servlet/DiscoServlet</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/servlet/TestServlet</url-pattern>

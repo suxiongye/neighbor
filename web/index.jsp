@@ -13,5 +13,9 @@
   </head>
   <body>
   <a href="view/Birthday.jsp" class="btn btn-default">Birthday</a>
+  <a href="view/Disco.jsp" class="btn btn-default">Disco</a>
+  <a href="view/UConn.jsp" class="btn btn-default">UConnect</a>
+  <a href="view/SearchLightS.jsp" class="btn btn-default">SearchLightS</a>
+  <a href="view/SearchLightR.jsp" class="btn btn-default">SearchLightR</a>
   </body>
 </html>

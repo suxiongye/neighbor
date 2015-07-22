@@ -26,8 +26,22 @@ public class Constants {
      */
     public static final int SLOT_NUM_BIR_K = 70;
 
+    //Disco primes
+    public static final int DISCO_PRIME1 = 37;
+    public static final int DISCO_PRIME2 = 43;
+
+    //Uconn prime
+    public static final int UCONN_PRIME = 101;
+
+    //SearchLight-S t
+    public static final int SEARCHLIGHT_S_T = 41;
+
+    //SearchLight-R t
+    public static final int SEARCHLIGHT_R_T = 41;
+
     //Disco sum slots
-    public static final int SLOT_NUM_DISCO_GLOBAL = 500;
+    public static final int SLOT_NUM_DISCO_GLOBAL = 5000;
+
     //SearchLight-S
     public static final int SLOT_NUM_SS_GLOBAL = 5000;
     //SearchLight-R

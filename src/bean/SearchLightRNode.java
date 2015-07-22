@@ -13,6 +13,11 @@ public class SearchLightRNode extends Node {
     private int t;//位移间隔
     private int startSlot;//开始时间片
 
+    /**
+     * 初始化节点
+     * @param t 位移的间隔
+     * @param startSlot 开始时间片
+     */
     public SearchLightRNode(int t,int startSlot)
     {
         this.t = t;
